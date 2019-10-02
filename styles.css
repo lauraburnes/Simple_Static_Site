@@ -2,9 +2,7 @@ body {
   font-family: "Times New Roman", serif;
 }
 
-div {border: 1px solid black;
-  margin: 25px;
-}
+
 
 h1 {
   color: #DC143C;
@@ -14,7 +12,11 @@ h2 {
   color: 	#DC143C;
 }
 
+h3 {
+  color: #DC143C
+}
+
 #contact {
   background-color: #F0FFFF;
-  padding: 15%;
+  padding: 10%;
 }
