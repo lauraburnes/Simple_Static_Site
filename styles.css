@@ -7,9 +7,13 @@ body {
   margin: 100px
 }
 
+header {
+  margin: 200px;
+  font-family: "Georgia", serif;
+}
 
 h1 {
-  color: #DC143C;
+  color: #2F4F4F;
 }
 
 h2 {
