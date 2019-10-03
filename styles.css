@@ -8,8 +8,8 @@ body {
 }
 
 header {
-  margin: 200px;
   font-family: "Georgia", serif;
+  border-style: outset; color: #2F4F4F; margin-top: 50px; margin-bottom: 50px
 }
 
 h1 {
@@ -17,11 +17,11 @@ h1 {
 }
 
 h2 {
-  color: 	#DC143C;
+  color: 	#396060;
 }
 
 h3 {
-  color: #DC143C
+  color: #396060
 }
 
 #contact {
