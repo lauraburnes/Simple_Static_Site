@@ -38,6 +38,22 @@ header {
 </head>
 <body>
 
+<body>
+/*creat columns that float next to each other*/
+.column {
+  float:left;
+  width: 50%
+  padding: 15px
+}
+
+/*clear floats after columns*/
+.row:after{
+  content:""
+  display: table-caption;
+  clear: both;
+}
+<body>
+
 h1 {
   color: #2F4F4F;
 }
