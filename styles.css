@@ -1,7 +1,7 @@
 body {
   font-family: "Georgia", serif;
   padding-left: 70xp;
-  margin: 100px
+  margin: 150px
 }
 
 /* Style the header*/
@@ -36,23 +36,26 @@ header {
 }
 </style>
 </head>
-<body>
 
-<body>
-/*creat columns that float next to each other*/
+div{
+  float: left;
+}
+
+/* Create three equal columns that floats next to each other */
 .column {
-  float:left;
-  width: 50%
-  padding: 15px
+  float: left;
+  width: 50%;
+
 }
 
-/*clear floats after columns*/
-.row:after{
-  content:""
-  display: table-caption;
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
   clear: both;
+  
 }
-</body>
+
 <body>
 
 h1 {
