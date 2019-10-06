@@ -58,6 +58,20 @@ div{
   clear: both;
 
 }
+/*aligning images*/
+div.a {
+  text-align: center;
+}
+
+div.b {
+  text-align: left;
+}
+
+div.c {
+  text-align: right;
+}
+
+
 
 <body>
 
